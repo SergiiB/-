@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./images/logo.jpg" alt="Logo">
+        </div>
+
+        <a href="#" class="navbar-link">
+            <img src="images/home.svg" alt="Home">
+        </a>
+        <a href="#" class="navbar-link">
+            <img src="images/basket.svg" alt="Basket">
+        </a>
+        <a href="#" class="navbar-link">
+            <img src="images/search.svg" alt="Search">
+        </a>
+        <a href="#" class="navbar-link">
+            <img src="images/in.svg" alt="In">
+        </a>
+
+    </nav>
+    <nav class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox"/>
+        <label class="menu__btn" for="menu__toggle">
+            <span></span>
+        </label>
+
+        <ul class="menu__box">
+            <li><a class="menu__item room" href="#">Living room</a></li>
+            <li><a class="menu__item office" href="#">Office</a></li>
+            <li><a class="menu__item kids" href="#">For kids</a></li>
+            <li><a class="menu__item kitchen" href="#">Kitchen</a></li>
+            <li><a class="menu__item accesories" href="#">Accesories</a></li>
+            <a class="btn-show-all" href="#">Show all categories</a>
+        </ul>
+    </nav>
+    <main class="main-block">
+        <p class="banner-text">Newest</p>
+        <div class="main-text">
+            <h1 class="main-title">Olios</h1>
+            <h4 class="subtitle">Newest furniture shop template</h4>
+            <button class="btn-view">View more</button>
+        </div>
+
+        <div class="slider-wrap">
+            <div class="slider">
+                <div class="slide-i">
+                    <img src="images/main-bg.jpg" class="slide-img" alt="" />
+                </div>
+                <div class="slide-i">
+                    <img src="images/main-bg.jpg" class="slide-img" alt="" />
+                </div>
+                <div class="slide-i">
+                    <img src="images/main-bg.jpg" class="slide-img" alt="" />
+                </div>
+                <div class="slide-i">
+                    <img src="images/main-bg.jpg" class="slide-img" alt="" />
+                </div>
+            </div>
+            <div class="slide-switches">
+                <span class="slide-switches-i" onclick="currentDiv(1)"></span>
+                <span class="slide-switches-i" onclick="currentDiv(2)"></span>
+                <span class="slide-switches-i" onclick="currentDiv(3)"></span>
+                <span class="slide-switches-i" onclick="currentDiv(4)"></span>
+            </div>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
